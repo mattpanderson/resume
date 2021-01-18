@@ -1,0 +1,174 @@
+/*********************** TAG Selectors ***********************/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+  margin: auto;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+border-style: dotted;
+border-width: 6px 0 0 0;
+border-color: #EAF6F6;
+height: 6px;
+width: 5%;
+}
+
+p {
+ color: #40514E;
+ line-height: 2;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+
+}
+/*********************** Class Selectors ***********************/
+
+.top-container {
+  background-color: #ddf3f5;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.container {
+  position: relative;
+  background-color: grey;
+}
+
+
+.middle-container{
+  text-align: center;
+
+
+}
+
+.footer {
+  background-color: #66BFBF;
+  padding: 50px 0 50px 0;
+
+}
+
+.footer-link {
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-attribution {
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 10px 0;
+}
+.top-cloud {
+position: absolute;
+right: 300px;
+top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom:300px;
+}
+
+.profile {
+  width: 50%;
+  text-align: center;
+  margin: 50px auto 100px auto;
+}
+
+.skills {
+  padding: 50px 0 0 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+  line-height: 1.75;
+}
+
+
+
+.profile-img {
+  width: 25%;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  padding: 0 30px 0 0;
+}
+
+.design-img {
+  width: 25%;
+  float: right;
+  padding: 0 0 0 30px;
+}
+
+.contact-me {
+  width: 50%;
+  text-align: center;
+  margin: 50px auto 100px auto;
+}
+
+.btn{
+  background: #66BFBF;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 15px;
+  border: solid #11999E 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.btn:hover{
+  background: #11999E;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 15px;
+  border: solid #66BFBF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+/*********************** ID Selectors ***********************/
